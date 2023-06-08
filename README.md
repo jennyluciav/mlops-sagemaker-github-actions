@@ -92,7 +92,7 @@ zip -r layer.zip python
 
 Publish the layer to AWS.
 ```sh
-aws lambda publish-layer-version --layer-name python39-github-arm64 \
+aws lambda publish-layer-version --layer-name python10-github-arm64 \
     --description "Python3.9 pygithub" \
     --license-info "MIT" \
     --zip-file fileb://layer.zip \
